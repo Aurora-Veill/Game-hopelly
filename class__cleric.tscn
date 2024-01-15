@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://21pw7ci1gwiu"]
+
+[ext_resource type="Script" path="res://Class.gd" id="1_0dvoc"]
+[ext_resource type="Texture2D" uid="uid://ct537j3qwei3a" path="res://Cleric_Beta.png" id="2_rkc7m"]
+[ext_resource type="Texture2D" uid="uid://25r8ui2lukdx" path="res://Beam-Beta.png" id="3_gi5ij"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_50qhg"]
+size = Vector2(16, 16)
+
+[node name="Class_ Cleric" type="Node2D"]
+script = ExtResource("1_0dvoc")
+className = "Cleric"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -1)
+texture = ExtResource("2_rkc7m")
+
+[node name="CollectionTrigger" type="Area2D" parent="."]
+collision_layer = 8
+collision_mask = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CollectionTrigger"]
+shape = SubResource("RectangleShape2D_50qhg")
+
+[node name="Explainer" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("3_gi5ij")
+
+[connection signal="body_entered" from="CollectionTrigger" to="." method="_on_collection_trigger_body_entered"]
+[connection signal="body_exited" from="CollectionTrigger" to="." method="_on_collection_trigger_body_exited"]

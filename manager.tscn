@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://db4d86k8bc45t"]
+
+[ext_resource type="Script" path="res://data.gd" id="1_j7jeb"]
+[ext_resource type="PackedScene" uid="uid://nchg1j62xwfu" path="res://Level2/Level2.tscn" id="2_hyljn"]
+[ext_resource type="PackedScene" uid="uid://c10w8ovlssrkw" path="res://Level1/level.tscn" id="3_06tqf"]
+
+[node name="Manager" type="Node"]
+script = ExtResource("1_j7jeb")
+
+[node name="Level2" parent="." instance=ExtResource("2_hyljn")]
+
+[node name="Level" parent="." instance=ExtResource("3_06tqf")]

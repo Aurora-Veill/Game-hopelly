@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://cacdrhtopoeta"]
+
+[ext_resource type="Script" path="res://Player/PC.gd" id="1_a6wbq"]
+[ext_resource type="Texture2D" uid="uid://bwfeyt3xj0gs3" path="res://Ishtar pixels cozy pack 1.0/tiles/Slice 131.png" id="2_uptjb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v8fku"]
+size = Vector2(21, 30)
+
+[node name="Player" type="CharacterBody2D"]
+collision_layer = 9
+collision_mask = 9
+script = ExtResource("1_a6wbq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_uptjb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 1)
+shape = SubResource("RectangleShape2D_v8fku")
+
+[node name="PCHurtbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="PCHurtbox"]
+position = Vector2(-0.5, 1)
+shape = SubResource("RectangleShape2D_v8fku")
+
+[node name="atkPos" type="Marker2D" parent="."]
+
+[node name="PathfindingMarker" type="Marker2D" parent="."]
+
+[node name="PlayerCam" type="Camera2D" parent="."]
+position_smoothing_speed = 10.0

@@ -1,0 +1,10 @@
+res://Level1/level.tscn
+res://Class.gd
+res://Player/PC.tscn
+res://Level2/Level2.tscn
+res://Player/beam.tscn
+res://Enemies/Diff1/enemy_1.tscn
+res://class__cleric.tscn
+res://char_ui.tscn
+res://manager.tscn
+res://Enemies/Diff1/EnemyMelee.gd

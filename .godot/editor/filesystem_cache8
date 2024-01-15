@@ -1,0 +1,402 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1705361584
+Beam-Beta.png::CompressedTexture2D::1958122294992251221::1700545886::1700545887::1::::<><>::
+CharUI.gd::GDScript::-1::1702347282::0::1::::<>Node2D<>::
+char_ui.tscn::PackedScene::5234921253590960987::1705297327::0::1::::<><>::res://CharUI.gd<>uid://clb27sodn2qpx::::res://HP BAR (trust me bro).png<>uid://bvi7nemjfyxrk::::res://MANA BAR (trust me bro).png
+Class.gd::GDScript::-1::1705295704::0::1::::<>Node2D<>::
+class__cleric.tscn::PackedScene::1949724326425136332::1705297327::0::1::::<><>::res://Class.gd<>uid://ct537j3qwei3a::::res://Cleric_Beta.png<>uid://25r8ui2lukdx::::res://Beam-Beta.png
+Cleric_Beta.png::CompressedTexture2D::6170118467054236888::1701745887::1701746871::1::::<><>::
+data.gd::GDScript::-1::1704760273::0::1::::Player_Data<>Node<>::
+HP BAR (trust me bro).png::CompressedTexture2D::5548680496570592605::1702341569::1702341573::1::::<><>::
+icon.svg::CompressedTexture2D::721172498338072479::1699726664::1699726684::1::::<><>::
+MANA BAR (trust me bro).png::CompressedTexture2D::3878867810261174360::1702341717::1702347280::1::::<><>::
+manager.tscn::PackedScene::7289560576934947139::1705297327::0::1::::<><>::res://data.gd<>uid://nchg1j62xwfu::::res://Level2/Level2.tscn<>uid://c10w8ovlssrkw::::res://Level1/level.tscn
+projectile.gd::GDScript::-1::1705291748::0::1::::Projectile<>Node2D<>::
+::res://2D Pixel Dungeon Asset Pack v2.0/::1700264222
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/::1705296139
+Dungeon_Character_at.png::CompressedTexture2D::7564259182915376876::1700264223::1700264248::1::::<><>::
+Dungeon_Tileset_at.png::CompressedTexture2D::3357654798025751976::1700286948::1700284590::1::::<><>::
+Dungeon_Tile_at.png::CompressedTexture2D::7997039562804159530::1700267269::1700267269::1::::<><>::
+Vampire.png::CompressedTexture2D::1144093188659609233::1700526612::1700526612::1::::<><>::
+Vampire_death.png::CompressedTexture2D::6611792647489381295::1705293595::1705293596::1::::<><>::
+Vampire_hurt.png::CompressedTexture2D::4603258637170672762::1705296135::1705296139::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/character and tileset/::1700264248
+demonstration.png::CompressedTexture2D::3697777840634298009::1700264222::1700264248::1::::<><>::
+Dungeon_Character.png::CompressedTexture2D::8839181428406794039::1700264222::1700264248::1::::<><>::
+Dungeon_Character_2.png::CompressedTexture2D::391730955898749437::1700264222::1700264248::1::::<><>::
+Dungeon_Tileset.png::CompressedTexture2D::6930748635639914334::1700264222::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/::1700264223
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/::1700264223
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/::1700264223
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v1/::1700264248
+skeleton_v1_1.png::CompressedTexture2D::7467712543592868583::1700264222::1700264248::1::::<><>::
+skeleton_v1_2.png::CompressedTexture2D::5165574232863305188::1700264223::1700264248::1::::<><>::
+skeleton_v1_3.png::CompressedTexture2D::4036316680816263715::1700264223::1700264248::1::::<><>::
+skeleton_v1_4.png::CompressedTexture2D::8360773396382933196::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v2/::1700264248
+skeleton_v2_1.png::CompressedTexture2D::156875488037381450::1700264223::1700264248::1::::<><>::
+skeleton_v2_2.png::CompressedTexture2D::3677695614529333887::1700264223::1700264248::1::::<><>::
+skeleton_v2_3.png::CompressedTexture2D::3541510856160814033::1700264223::1700264248::1::::<><>::
+skeleton_v2_4.png::CompressedTexture2D::3631412789559030951::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/::1700264223
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/::1700264248
+skeleton2_v1_1.png::CompressedTexture2D::6139636154348872237::1700264223::1700264248::1::::<><>::
+skeleton2_v1_2.png::CompressedTexture2D::6460027424574249356::1700264223::1700264248::1::::<><>::
+skeleton2_v1_3.png::CompressedTexture2D::3743738822011556915::1700264223::1700264248::1::::<><>::
+skeleton2_v1_4.png::CompressedTexture2D::7626523951725323920::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v2/::1700264248
+skeleton2_v2_1.png::CompressedTexture2D::5847210785287721105::1700264223::1700264248::1::::<><>::
+skeleton2_v2_2.png::CompressedTexture2D::5448263373869502561::1700264223::1700264248::1::::<><>::
+skeleton2_v2_3.png::CompressedTexture2D::7975180740440057558::1700264223::1700264248::1::::<><>::
+skeleton2_v2_4.png::CompressedTexture2D::8021536130228446960::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/::1700264223
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v1/::1700264248
+skull_v1_1.png::CompressedTexture2D::4073236600701341279::1700264223::1700264248::1::::<><>::
+skull_v1_2.png::CompressedTexture2D::8851668725819602629::1700264223::1700264248::1::::<><>::
+skull_v1_3.png::CompressedTexture2D::1498739568065245711::1700264223::1700264248::1::::<><>::
+skull_v1_4.png::CompressedTexture2D::6326709260275252878::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v2/::1700264248
+skull_v2_1.png::CompressedTexture2D::6811729495099518267::1700264223::1700264248::1::::<><>::
+skull_v2_2.png::CompressedTexture2D::6865599759161619594::1700264223::1700264248::1::::<><>::
+skull_v2_3.png::CompressedTexture2D::8541468153766766719::1700264223::1700264248::1::::<><>::
+skull_v2_4.png::CompressedTexture2D::8445030974709877110::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/::1700264223
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v1/::1700264248
+vampire_v1_1.png::CompressedTexture2D::3039001684719758469::1700264223::1700264248::1::::<><>::
+vampire_v1_2.png::CompressedTexture2D::4786957038278960606::1700264223::1700264248::1::::<><>::
+vampire_v1_3.png::CompressedTexture2D::6706136856286160751::1700264223::1700264248::1::::<><>::
+vampire_v1_4.png::CompressedTexture2D::5066671516322069396::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v2/::1700264248
+vampire_v2_1.png::CompressedTexture2D::4922741058732803117::1700264223::1700264248::1::::<><>::
+vampire_v2_2.png::CompressedTexture2D::2622744119280361820::1700264223::1700264248::1::::<><>::
+vampire_v2_3.png::CompressedTexture2D::5680605914155381850::1700264223::1700264248::1::::<><>::
+vampire_v2_4.png::CompressedTexture2D::1401784834458659083::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/::1700264223
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/::1700264223
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/::1700264248
+priest1_v1_1.png::CompressedTexture2D::1442536060140060786::1700264223::1700264248::1::::<><>::
+priest1_v1_2.png::CompressedTexture2D::1750732703338823064::1700264223::1700264248::1::::<><>::
+priest1_v1_3.png::CompressedTexture2D::4181918647555975324::1700264223::1700264248::1::::<><>::
+priest1_v1_4.png::CompressedTexture2D::5171886329076016825::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v2/::1700264248
+priest1_v2_1.png::CompressedTexture2D::2761776957009719911::1700264223::1700264248::1::::<><>::
+priest1_v2_2.png::CompressedTexture2D::6793210827733357901::1700264223::1700264248::1::::<><>::
+priest1_v2_3.png::CompressedTexture2D::7247107365606913053::1700264223::1700264248::1::::<><>::
+priest1_v2_4.png::CompressedTexture2D::2647240009998645232::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/::1700264223
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v1/::1700264248
+priest2_v1_1.png::CompressedTexture2D::2838737035131026331::1700264223::1700264248::1::::<><>::
+priest2_v1_2.png::CompressedTexture2D::2058591848579832969::1700264223::1700264248::1::::<><>::
+priest2_v1_3.png::CompressedTexture2D::7422553773264484307::1700264223::1700264248::1::::<><>::
+priest2_v1_4.png::CompressedTexture2D::5669903355528494064::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v2/::1700264248
+priest2_v2_1.png::CompressedTexture2D::7424117384374959254::1700264223::1700264248::1::::<><>::
+priest2_v2_2.png::CompressedTexture2D::9069147682613802675::1700264223::1700264248::1::::<><>::
+priest2_v2_3.png::CompressedTexture2D::768862511948852294::1700264223::1700264248::1::::<><>::
+priest2_v2_4.png::CompressedTexture2D::270210274993685922::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/::1700264223
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v1/::1700264248
+priest3_v1_1.png::CompressedTexture2D::8514092506694781660::1700264223::1700264248::1::::<><>::
+priest3_v1_2.png::CompressedTexture2D::8131146230309848728::1700264223::1700264248::1::::<><>::
+priest3_v1_3.png::CompressedTexture2D::380260867583173884::1700264223::1700264248::1::::<><>::
+priest3_v1_4.png::CompressedTexture2D::8919158181192802946::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v2/::1700264248
+priest3_v2_1.png::CompressedTexture2D::3456304891001406649::1700264223::1700264248::1::::<><>::
+priest3_v2_2.png::CompressedTexture2D::3186957871699778116::1700264223::1700264248::1::::<><>::
+priest3_v2_3.png::CompressedTexture2D::6326428875365377474::1700264223::1700264248::1::::<><>::
+priest3_v2_4.png::CompressedTexture2D::8484367344985553153::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/interface/::1700264248
+arrow_1.png::CompressedTexture2D::2912807412584741791::1700264223::1700264248::1::::<><>::
+arrow_2.png::CompressedTexture2D::804383428923864492::1700264223::1700264248::1::::<><>::
+arrow_3.png::CompressedTexture2D::2649426589459233644::1700264223::1700264248::1::::<><>::
+arrow_4.png::CompressedTexture2D::8057276793385265459::1700264223::1700264248::1::::<><>::
+square_left_1.png::CompressedTexture2D::645179765975060248::1700264223::1700264248::1::::<><>::
+square_left_2.png::CompressedTexture2D::3033448918491302802::1700264223::1700264248::1::::<><>::
+square_left_2_1.png::CompressedTexture2D::2952275969274216691::1700264223::1700264248::1::::<><>::
+square_left_2_2.png::CompressedTexture2D::7125846735175405554::1700264223::1700264248::1::::<><>::
+square_left_2_3.png::CompressedTexture2D::496338331836598878::1700264223::1700264248::1::::<><>::
+square_left_2_4.png::CompressedTexture2D::98780410962421366::1700264223::1700264248::1::::<><>::
+square_left_3.png::CompressedTexture2D::5692740493733172733::1700264223::1700264248::1::::<><>::
+square_left_4.png::CompressedTexture2D::6000409452361389503::1700264223::1700264248::1::::<><>::
+square_right_1.png::CompressedTexture2D::5481559326903536676::1700264223::1700264248::1::::<><>::
+square_right_2.png::CompressedTexture2D::6661902196144105698::1700264223::1700264248::1::::<><>::
+square_right_2_1.png::CompressedTexture2D::982959158527503571::1700264223::1700264248::1::::<><>::
+square_right_2_2.png::CompressedTexture2D::2393703174958907827::1700264223::1700264248::1::::<><>::
+square_right_2_3.png::CompressedTexture2D::6033384761260988839::1700264223::1700264248::1::::<><>::
+square_right_2_4.png::CompressedTexture2D::291252187447364157::1700264223::1700264248::1::::<><>::
+square_right_3.png::CompressedTexture2D::9104668864625435962::1700264223::1700264248::1::::<><>::
+square_right_4.png::CompressedTexture2D::4014767412145246454::1700264223::1700264248::1::::<><>::
+square_up_down_1.png::CompressedTexture2D::2698893266994636307::1700264223::1700264248::1::::<><>::
+square_up_down_2.png::CompressedTexture2D::6683608997614522520::1700264223::1700264248::1::::<><>::
+square_up_down_3.png::CompressedTexture2D::386171102428400159::1700264223::1700264248::1::::<><>::
+square_up_down_4.png::CompressedTexture2D::4569268297744847425::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/::1700264223
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/::1700264248
+arrow_1.png::CompressedTexture2D::4759281628217729376::1700264223::1700264248::1::::<><>::
+arrow_2.png::CompressedTexture2D::6807828215324446434::1700264223::1700264248::1::::<><>::
+arrow_3.png::CompressedTexture2D::8921208500604854989::1700264223::1700264248::1::::<><>::
+arrow_4.png::CompressedTexture2D::9178675189103558490::1700264223::1700264248::1::::<><>::
+Just_arrow.png::CompressedTexture2D::1613994514826555825::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/::1700264248
+box_1_1.png::CompressedTexture2D::2236072856904233604::1700264223::1700264248::1::::<><>::
+box_1_2.png::CompressedTexture2D::3278626855094943682::1700264223::1700264248::1::::<><>::
+box_1_3.png::CompressedTexture2D::1932285872659406484::1700264223::1700264248::1::::<><>::
+box_1_4.png::CompressedTexture2D::6598786707030019468::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/::1700264248
+box_2_1.png::CompressedTexture2D::3944701740303996353::1700264223::1700264248::1::::<><>::
+box_2_2.png::CompressedTexture2D::7365876838444844147::1700264223::1700264248::1::::<><>::
+box_2_3.png::CompressedTexture2D::1198769489060656635::1700264223::1700264248::1::::<><>::
+box_2_4.png::CompressedTexture2D::2095123498890961182::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/::1700264248
+chest_1.png::CompressedTexture2D::4654574964449053292::1700264223::1700264248::1::::<><>::
+chest_2.png::CompressedTexture2D::6919169914530651073::1700264223::1700264248::1::::<><>::
+chest_3.png::CompressedTexture2D::7618561713858340196::1700264223::1700264248::1::::<><>::
+chest_4.png::CompressedTexture2D::4607442169894587609::1700264223::1700264248::1::::<><>::
+chest_open_1.png::CompressedTexture2D::6260263279945334069::1700264223::1700264248::1::::<><>::
+chest_open_2.png::CompressedTexture2D::1960753352519801208::1700264223::1700264248::1::::<><>::
+chest_open_3.png::CompressedTexture2D::8191154033646779597::1700264223::1700264248::1::::<><>::
+chest_open_4.png::CompressedTexture2D::8494841255746478981::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/::1700264248
+coin_1.png::CompressedTexture2D::8663822267496570923::1700264223::1700264248::1::::<><>::
+coin_2.png::CompressedTexture2D::9031082119408893957::1700264223::1700264248::1::::<><>::
+coin_3.png::CompressedTexture2D::3759797863761932527::1700264223::1700264248::1::::<><>::
+coin_4.png::CompressedTexture2D::3350936984482988107::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/flag/::1700264248
+flag_1.png::CompressedTexture2D::8429871548543364717::1700264223::1700264248::1::::<><>::
+flag_2.png::CompressedTexture2D::8872538276124277049::1700264223::1700264248::1::::<><>::
+flag_3.png::CompressedTexture2D::597205090439046995::1700264223::1700264248::1::::<><>::
+flag_4.png::CompressedTexture2D::1310347171791981610::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/::1700264248
+flamethrower_1_1.png::CompressedTexture2D::1859719501821760757::1700264223::1700264248::1::::<><>::
+flamethrower_1_2.png::CompressedTexture2D::4717643032642625284::1700264223::1700264248::1::::<><>::
+flamethrower_1_3.png::CompressedTexture2D::1264491326572296387::1700264223::1700264248::1::::<><>::
+flamethrower_1_4.png::CompressedTexture2D::1041115826170910658::1700264223::1700264248::1::::<><>::
+flamethrower_2_1.png::CompressedTexture2D::4693813235357192499::1700264223::1700264248::1::::<><>::
+flamethrower_2_2.png::CompressedTexture2D::7993515667879263349::1700264223::1700264248::1::::<><>::
+flamethrower_2_3.png::CompressedTexture2D::7495882565861211823::1700264223::1700264248::1::::<><>::
+flamethrower_2_4.png::CompressedTexture2D::7673939691834387440::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/::1700264248
+flasks_1_1.png::CompressedTexture2D::2100330974881543293::1700264223::1700264248::1::::<><>::
+flasks_1_2.png::CompressedTexture2D::1074948810814372075::1700264223::1700264248::1::::<><>::
+flasks_1_3.png::CompressedTexture2D::5937477902057962585::1700264223::1700264248::1::::<><>::
+flasks_1_4.png::CompressedTexture2D::624482619484723589::1700264223::1700264248::1::::<><>::
+flasks_2_1.png::CompressedTexture2D::7604104352100563096::1700264223::1700264248::1::::<><>::
+flasks_2_2.png::CompressedTexture2D::4698334403252252752::1700264223::1700264248::1::::<><>::
+flasks_2_3.png::CompressedTexture2D::1096900672546038311::1700264223::1700264248::1::::<><>::
+flasks_2_4.png::CompressedTexture2D::566507528379055076::1700264223::1700264248::1::::<><>::
+flasks_3_1.png::CompressedTexture2D::7409000463072874565::1700264223::1700264248::1::::<><>::
+flasks_3_2.png::CompressedTexture2D::6274878797701884365::1700264223::1700264248::1::::<><>::
+flasks_3_3.png::CompressedTexture2D::788140061844970341::1700264223::1700264248::1::::<><>::
+flasks_3_4.png::CompressedTexture2D::7753716182817937050::1700264223::1700264248::1::::<><>::
+flasks_4_1.png::CompressedTexture2D::6342534508953509840::1700264223::1700264248::1::::<><>::
+flasks_4_2.png::CompressedTexture2D::9138121665496161317::1700264223::1700264248::1::::<><>::
+flasks_4_3.png::CompressedTexture2D::4247139664530565545::1700264223::1700264248::1::::<><>::
+flasks_4_4.png::CompressedTexture2D::5209430277886979062::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/::1700264248
+keys_1_1.png::CompressedTexture2D::2971876673841599599::1700264223::1700264248::1::::<><>::
+keys_1_2.png::CompressedTexture2D::7145944987252257145::1700264223::1700264248::1::::<><>::
+keys_1_3.png::CompressedTexture2D::8621861784298963441::1700264223::1700264248::1::::<><>::
+keys_1_4.png::CompressedTexture2D::5078611464153392474::1700264223::1700264248::1::::<><>::
+keys_2_1.png::CompressedTexture2D::8339934366182092842::1700264223::1700264248::1::::<><>::
+keys_2_2.png::CompressedTexture2D::4094163061083043208::1700264223::1700264248::1::::<><>::
+keys_2_3.png::CompressedTexture2D::7803533996763699141::1700264223::1700264248::1::::<><>::
+keys_2_4.png::CompressedTexture2D::3923973032001502101::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_1/::1700264248
+mini_box_1_1.png::CompressedTexture2D::5207425114668060306::1700264223::1700264248::1::::<><>::
+mini_box_1_2.png::CompressedTexture2D::6443900471770644067::1700264223::1700264248::1::::<><>::
+mini_box_1_3.png::CompressedTexture2D::9059832275226745638::1700264223::1700264248::1::::<><>::
+mini_box_1_4.png::CompressedTexture2D::1751697374551880227::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_2/::1700264248
+mini_box_2_1.png::CompressedTexture2D::633806272972668859::1700264223::1700264248::1::::<><>::
+mini_box_2_2.png::CompressedTexture2D::194852690222888638::1700264223::1700264248::1::::<><>::
+mini_box_2_3.png::CompressedTexture2D::7995539637706740436::1700264223::1700264248::1::::<><>::
+mini_box_2_4.png::CompressedTexture2D::2525265919406536038::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/::1700264248
+mini_chest_1.png::CompressedTexture2D::4575189420382634812::1700264223::1700264248::1::::<><>::
+mini_chest_2.png::CompressedTexture2D::2128759233455698114::1700264223::1700264248::1::::<><>::
+mini_chest_3.png::CompressedTexture2D::3235309246178403306::1700264223::1700264248::1::::<><>::
+mini_chest_4.png::CompressedTexture2D::4517394301202670422::1700264223::1700264248::1::::<><>::
+mini_chest_open_1.png::CompressedTexture2D::6636774565659029662::1700264223::1700264248::1::::<><>::
+mini_chest_open_2.png::CompressedTexture2D::3194698318099778711::1700264223::1700264248::1::::<><>::
+mini_chest_open_3.png::CompressedTexture2D::7966067689643273665::1700264223::1700264248::1::::<><>::
+mini_chest_open_4.png::CompressedTexture2D::309099087477497148::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/peaks/::1700264248
+peaks_1.png::CompressedTexture2D::3386339942519812897::1700264223::1700264248::1::::<><>::
+peaks_2.png::CompressedTexture2D::3682632489844125075::1700264223::1700264248::1::::<><>::
+peaks_3.png::CompressedTexture2D::1569782254290806429::1700264223::1700264248::1::::<><>::
+peaks_4.png::CompressedTexture2D::505512841600497022::1700264223::1700264248::1::::<><>::
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/::1700264248
+candlestick_1_1.png::CompressedTexture2D::7792002450145062947::1700264223::1700264248::1::::<><>::
+candlestick_1_2.png::CompressedTexture2D::8573210322496786970::1700264223::1700264248::1::::<><>::
+candlestick_1_3.png::CompressedTexture2D::1790004066478547161::1700264223::1700264248::1::::<><>::
+candlestick_1_4.png::CompressedTexture2D::7827325184966145320::1700264223::1700264248::1::::<><>::
+candlestick_2_1.png::CompressedTexture2D::8080142923291541627::1700264223::1700264248::1::::<><>::
+candlestick_2_2.png::CompressedTexture2D::454575169323461492::1700264223::1700264248::1::::<><>::
+candlestick_2_3.png::CompressedTexture2D::6648004112982044645::1700264223::1700264248::1::::<><>::
+candlestick_2_4.png::CompressedTexture2D::1039778546919101270::1700264223::1700264248::1::::<><>::
+side_torch_1.png::CompressedTexture2D::1117152319561671329::1700264223::1700264248::1::::<><>::
+side_torch_2.png::CompressedTexture2D::8097670720368251915::1700264223::1700264248::1::::<><>::
+side_torch_3.png::CompressedTexture2D::7712214898004858576::1700264223::1700264248::1::::<><>::
+side_torch_4.png::CompressedTexture2D::2989485348332768398::1700264223::1700264248::1::::<><>::
+torch_1.png::CompressedTexture2D::7482142639055893985::1700264223::1700264248::1::::<><>::
+torch_2.png::CompressedTexture2D::6112746509156568084::1700264223::1700264248::1::::<><>::
+torch_3.png::CompressedTexture2D::661930488920035088::1700264223::1700264248::1::::<><>::
+torch_4.png::CompressedTexture2D::1827849758338570459::1700264223::1700264248::1::::<><>::
+::res://Enemies/::1700526161
+::res://Enemies/Diff1/::1705297327
+EnemyMelee.gd::GDScript::-1::1705296539::0::1::::<>CharacterBody2D<>::
+enemy_1.tscn::PackedScene::2845818269679492329::1705297327::0::1::::<><>::res://Enemies/Diff1/EnemyMelee.gd<>uid://b6t3851lhn5va::::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Vampire_hurt.png
+::res://Enemies/Diff2/::1700526144
+::res://Enemies/Diff3/::1700526150
+::res://Enemies/Diff4/::1700526156
+::res://Enemies/Diff5/::1700526161
+::res://Ishtar pixels cozy pack 1.0/::1700103346
+License.txt::TextFile::-1::1700103345::0::1::::<><>::
+preview.png::CompressedTexture2D::125294920071719857::1700103345::1700103346::1::::<><>::
+top-down-pack-2.png::CompressedTexture2D::7026144217541700444::1700103345::1700103346::1::::<><>::
+::res://Ishtar pixels cozy pack 1.0/tiles/::1700103346
+Slice 1.png::CompressedTexture2D::5145296771495043182::1700103345::1700103346::1::::<><>::
+Slice 2.png::CompressedTexture2D::3529908872534440117::1700103345::1700103346::1::::<><>::
+Slice 3.png::CompressedTexture2D::1620575622022704682::1700103345::1700103346::1::::<><>::
+Slice 4.png::CompressedTexture2D::7376203582931460653::1700103345::1700103346::1::::<><>::
+Slice 5.png::CompressedTexture2D::6129144450937172546::1700103345::1700103346::1::::<><>::
+Slice 6.png::CompressedTexture2D::7615531018042441678::1700103345::1700103346::1::::<><>::
+Slice 7.png::CompressedTexture2D::7672442500061398513::1700103345::1700103346::1::::<><>::
+Slice 8.png::CompressedTexture2D::1659020449341872554::1700103345::1700103346::1::::<><>::
+Slice 9.png::CompressedTexture2D::1283677670795093829::1700103345::1700103346::1::::<><>::
+Slice 10.png::CompressedTexture2D::1586545064551384428::1700103345::1700103346::1::::<><>::
+Slice 11.png::CompressedTexture2D::8798497198307454651::1700103345::1700103346::1::::<><>::
+Slice 12.png::CompressedTexture2D::7803049314285200113::1700103345::1700103346::1::::<><>::
+Slice 13.png::CompressedTexture2D::51910173570311586::1700103345::1700103346::1::::<><>::
+Slice 14.png::CompressedTexture2D::7428605775072911414::1700103345::1700103346::1::::<><>::
+Slice 15.png::CompressedTexture2D::3390534520052352468::1700103345::1700103346::1::::<><>::
+Slice 16.png::CompressedTexture2D::4073293426938839617::1700103345::1700103346::1::::<><>::
+Slice 17.png::CompressedTexture2D::7293380826695874362::1700103345::1700103346::1::::<><>::
+Slice 18.png::CompressedTexture2D::5968171432423789162::1700103345::1700103346::1::::<><>::
+Slice 19.png::CompressedTexture2D::3671059450342703744::1700103345::1700103346::1::::<><>::
+Slice 20.png::CompressedTexture2D::2789512649584755735::1700103345::1700103346::1::::<><>::
+Slice 21.png::CompressedTexture2D::4684627890813652070::1700103345::1700103346::1::::<><>::
+Slice 22.png::CompressedTexture2D::3247256806679488098::1700103345::1700103346::1::::<><>::
+Slice 23.png::CompressedTexture2D::1637861533456539933::1700103345::1700103346::1::::<><>::
+Slice 24.png::CompressedTexture2D::3793554207590378586::1700103345::1700103346::1::::<><>::
+Slice 25.png::CompressedTexture2D::3760396984177020538::1700103345::1700103346::1::::<><>::
+Slice 26.png::CompressedTexture2D::1848739548562088572::1700103345::1700103346::1::::<><>::
+Slice 27.png::CompressedTexture2D::7168497988634887327::1700103345::1700103346::1::::<><>::
+Slice 28.png::CompressedTexture2D::1326865958919659602::1700103345::1700103346::1::::<><>::
+Slice 29.png::CompressedTexture2D::1903775143273341926::1700103345::1700103346::1::::<><>::
+Slice 30.png::CompressedTexture2D::3667007351506686873::1700103345::1700103346::1::::<><>::
+Slice 31.png::CompressedTexture2D::3473603303211943590::1700103345::1700103346::1::::<><>::
+Slice 32.png::CompressedTexture2D::6154852246643165832::1700103345::1700103346::1::::<><>::
+Slice 33.png::CompressedTexture2D::5633318805919955273::1700103345::1700103346::1::::<><>::
+Slice 34.png::CompressedTexture2D::1292859343782660300::1700103345::1700103346::1::::<><>::
+Slice 35.png::CompressedTexture2D::1213409750397846609::1700103345::1700103346::1::::<><>::
+Slice 36.png::CompressedTexture2D::5151293638767929957::1700103345::1700103346::1::::<><>::
+Slice 37.png::CompressedTexture2D::3292287618649287655::1700103345::1700103346::1::::<><>::
+Slice 38.png::CompressedTexture2D::5684844051554110229::1700103345::1700103346::1::::<><>::
+Slice 39.png::CompressedTexture2D::8145311270054447953::1700103345::1700103346::1::::<><>::
+Slice 40.png::CompressedTexture2D::6548843020609406664::1700103345::1700103346::1::::<><>::
+Slice 41.png::CompressedTexture2D::6700324617923116273::1700103345::1700103346::1::::<><>::
+Slice 42.png::CompressedTexture2D::6179140924957656318::1700103345::1700103346::1::::<><>::
+Slice 43.png::CompressedTexture2D::8951756097967287291::1700103345::1700103346::1::::<><>::
+Slice 44.png::CompressedTexture2D::2365357024358232488::1700103345::1700103346::1::::<><>::
+Slice 45.png::CompressedTexture2D::5851254186279535365::1700103345::1700103346::1::::<><>::
+Slice 46.png::CompressedTexture2D::5440804348294228762::1700103345::1700103346::1::::<><>::
+Slice 47.png::CompressedTexture2D::1730757574614440279::1700103345::1700103346::1::::<><>::
+Slice 48.png::CompressedTexture2D::3102393274340740939::1700103345::1700103346::1::::<><>::
+Slice 49.png::CompressedTexture2D::4071587401442330963::1700103345::1700103346::1::::<><>::
+Slice 50.png::CompressedTexture2D::5127531001556418751::1700103345::1700103346::1::::<><>::
+Slice 51.png::CompressedTexture2D::950465006513849357::1700103345::1700103346::1::::<><>::
+Slice 52.png::CompressedTexture2D::5781639375612861719::1700103345::1700103346::1::::<><>::
+Slice 53.png::CompressedTexture2D::2017557627735518547::1700103345::1700103346::1::::<><>::
+Slice 54.png::CompressedTexture2D::1715947712286111291::1700103345::1700103346::1::::<><>::
+Slice 55.png::CompressedTexture2D::3100018451187408829::1700103345::1700103346::1::::<><>::
+Slice 56.png::CompressedTexture2D::9064317520878764404::1700103345::1700103346::1::::<><>::
+Slice 57.png::CompressedTexture2D::7333861200206653063::1700103345::1700103346::1::::<><>::
+Slice 58.png::CompressedTexture2D::2661589180253146071::1700103345::1700103346::1::::<><>::
+Slice 59.png::CompressedTexture2D::5477025979387851568::1700103345::1700103346::1::::<><>::
+Slice 60.png::CompressedTexture2D::7933083645647269791::1700103345::1700103346::1::::<><>::
+Slice 61.png::CompressedTexture2D::1798678031130864974::1700103345::1700103346::1::::<><>::
+Slice 62.png::CompressedTexture2D::3881466398394663369::1700103345::1700103346::1::::<><>::
+Slice 63.png::CompressedTexture2D::7697759229110233083::1700103345::1700103346::1::::<><>::
+Slice 64.png::CompressedTexture2D::8029145991894093170::1700103345::1700103346::1::::<><>::
+Slice 65.png::CompressedTexture2D::3988696393671151642::1700103345::1700103346::1::::<><>::
+Slice 66.png::CompressedTexture2D::1584764704008379858::1700103345::1700103346::1::::<><>::
+Slice 67.png::CompressedTexture2D::381139170173311844::1700103345::1700103346::1::::<><>::
+Slice 68.png::CompressedTexture2D::862954913555628899::1700103345::1700103346::1::::<><>::
+Slice 69.png::CompressedTexture2D::4747958356147035360::1700103345::1700103346::1::::<><>::
+Slice 70.png::CompressedTexture2D::1725383569368062061::1700103345::1700103346::1::::<><>::
+Slice 71.png::CompressedTexture2D::8467386705237395561::1700103345::1700103346::1::::<><>::
+Slice 72.png::CompressedTexture2D::4872617751452822593::1700103345::1700103346::1::::<><>::
+Slice 73.png::CompressedTexture2D::5491575337579107046::1700103345::1700103346::1::::<><>::
+Slice 74.png::CompressedTexture2D::7165490114160556705::1700103345::1700103346::1::::<><>::
+Slice 75.png::CompressedTexture2D::2846902855507081019::1700103345::1700103346::1::::<><>::
+Slice 76.png::CompressedTexture2D::7989489597780642269::1700103345::1700103346::1::::<><>::
+Slice 77.png::CompressedTexture2D::759181082251718032::1700103345::1700103346::1::::<><>::
+Slice 78.png::CompressedTexture2D::3952764841388701200::1700103345::1700103346::1::::<><>::
+Slice 79.png::CompressedTexture2D::2821713550737814491::1700103345::1700103346::1::::<><>::
+Slice 80.png::CompressedTexture2D::897540775134308642::1700103345::1700103346::1::::<><>::
+Slice 81.png::CompressedTexture2D::7019050334194173752::1700103345::1700103346::1::::<><>::
+Slice 82.png::CompressedTexture2D::6659487906415263592::1700103345::1700103346::1::::<><>::
+Slice 83.png::CompressedTexture2D::975007206112467654::1700103345::1700103346::1::::<><>::
+Slice 84.png::CompressedTexture2D::5567255445305006941::1700103345::1700103346::1::::<><>::
+Slice 85.png::CompressedTexture2D::6621467667073788479::1700103345::1700103346::1::::<><>::
+Slice 86.png::CompressedTexture2D::4900400897630972123::1700103345::1700103346::1::::<><>::
+Slice 87.png::CompressedTexture2D::1332633998975333219::1700103345::1700103346::1::::<><>::
+Slice 88.png::CompressedTexture2D::5355500367253520097::1700103345::1700103346::1::::<><>::
+Slice 89.png::CompressedTexture2D::1056451414034601424::1700103345::1700103346::1::::<><>::
+Slice 90.png::CompressedTexture2D::5743140720715026382::1700103345::1700103346::1::::<><>::
+Slice 91.png::CompressedTexture2D::1309606659469317258::1700103345::1700103346::1::::<><>::
+Slice 92.png::CompressedTexture2D::2703477769554077480::1700103345::1700103346::1::::<><>::
+Slice 93.png::CompressedTexture2D::762451028384419699::1700103345::1700103346::1::::<><>::
+Slice 94.png::CompressedTexture2D::3775163118505155786::1700103345::1700103346::1::::<><>::
+Slice 95.png::CompressedTexture2D::8112288208061420688::1700103345::1700103346::1::::<><>::
+Slice 96.png::CompressedTexture2D::7154540459651457038::1700103345::1700103346::1::::<><>::
+Slice 97.png::CompressedTexture2D::4311286625771407608::1700103345::1700103346::1::::<><>::
+Slice 98.png::CompressedTexture2D::551521401485861676::1700103345::1700103346::1::::<><>::
+Slice 99.png::CompressedTexture2D::3583059917351896579::1700103345::1700103346::1::::<><>::
+Slice 100.png::CompressedTexture2D::3616241548025001841::1700103345::1700103346::1::::<><>::
+Slice 101.png::CompressedTexture2D::2613400371794469187::1700103345::1700103346::1::::<><>::
+Slice 102.png::CompressedTexture2D::3849762578056435398::1700103345::1700103346::1::::<><>::
+Slice 103.png::CompressedTexture2D::8471560316123108684::1700103345::1700103346::1::::<><>::
+Slice 104.png::CompressedTexture2D::2855533845039540650::1700103345::1700103346::1::::<><>::
+Slice 105.png::CompressedTexture2D::4038440300386970189::1700103345::1700103346::1::::<><>::
+Slice 106.png::CompressedTexture2D::7628220966936143820::1700103345::1700103346::1::::<><>::
+Slice 107.png::CompressedTexture2D::5236827110705369402::1700103345::1700103346::1::::<><>::
+Slice 108.png::CompressedTexture2D::4479977816693022591::1700103345::1700103346::1::::<><>::
+Slice 109.png::CompressedTexture2D::436970668226576082::1700103345::1700103346::1::::<><>::
+Slice 110.png::CompressedTexture2D::5562781258095161417::1700103345::1700103346::1::::<><>::
+Slice 111.png::CompressedTexture2D::2200601342384301603::1700103345::1700103346::1::::<><>::
+Slice 112.png::CompressedTexture2D::1782028879704513036::1700103345::1700103346::1::::<><>::
+Slice 113.png::CompressedTexture2D::5002024180484421647::1700103345::1700103346::1::::<><>::
+Slice 114.png::CompressedTexture2D::5709871117043679218::1700103345::1700103346::1::::<><>::
+Slice 115.png::CompressedTexture2D::2038020880045693777::1700103345::1700103346::1::::<><>::
+Slice 116.png::CompressedTexture2D::1862369941876689455::1700103345::1700103346::1::::<><>::
+Slice 117.png::CompressedTexture2D::4633955052153940966::1700103345::1700103346::1::::<><>::
+Slice 118.png::CompressedTexture2D::480396951251669450::1700103345::1700103346::1::::<><>::
+Slice 119.png::CompressedTexture2D::4140051493223940684::1700103345::1700103346::1::::<><>::
+Slice 120.png::CompressedTexture2D::4451675337281666491::1700103345::1700103346::1::::<><>::
+Slice 121.png::CompressedTexture2D::1543497924590289106::1700103345::1700103346::1::::<><>::
+Slice 122.png::CompressedTexture2D::8992350225247841999::1700103345::1700103346::1::::<><>::
+Slice 123.png::CompressedTexture2D::8823813688757073013::1700103345::1700103346::1::::<><>::
+Slice 124.png::CompressedTexture2D::3201504533592941812::1700103345::1700103346::1::::<><>::
+Slice 125.png::CompressedTexture2D::2540127289774042079::1700103345::1700103346::1::::<><>::
+Slice 126.png::CompressedTexture2D::1807530920027916664::1700103345::1700103346::1::::<><>::
+Slice 127.png::CompressedTexture2D::4545740700009379310::1700103345::1700103346::1::::<><>::
+Slice 128.png::CompressedTexture2D::7081085092022632552::1700103345::1700103346::1::::<><>::
+Slice 129.png::CompressedTexture2D::8020271655308256542::1700103345::1700103346::1::::<><>::
+Slice 130.png::CompressedTexture2D::220556979139487396::1700103345::1700103346::1::::<><>::
+Slice 131.png::CompressedTexture2D::3941183901781104080::1700103345::1700103346::1::::<><>::
+Slice 132.png::CompressedTexture2D::2810468473196250729::1700103345::1700103346::1::::<><>::
+::res://Level1/::1705297327
+level.gd::GDScript::-1::1704938072::0::1::::<>Node2D<>::
+level.tscn::PackedScene::6650756219158628222::1705297327::0::1::::<><>::res://Level1/level.gd<>uid://bn3qc4cec8hoi::::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png<>uid://21pw7ci1gwiu::::res://class__cleric.tscn<>uid://cacdrhtopoeta::::res://Player/PC.tscn<>uid://bgsshgb7oljcj::::res://Enemies/Diff1/enemy_1.tscn
+::res://Level1/map/::1700288447
+ExitArea.cs::CSharpScript::-1::1700288418::0::1::::<><>::
+Map1.cs::CSharpScript::-1::1700198140::0::1::::<><>::
+tile_map.tscn::PackedScene::7478337757814556620::1700288447::0::1::::<><>::uid://c7drtlpm5vbia
+::res://Level2/::1705297327
+Level2.tscn::PackedScene::917020837471187486::1705297327::0::1::::<><>::res://Level1/level.gd<>uid://cacdrhtopoeta::::res://Player/PC.tscn<>uid://bn3qc4cec8hoi::::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png
+::res://Player/::1705297327
+beam.tscn::PackedScene::816181136628649628::1705297327::0::1::::<><>::res://projectile.gd<>uid://25r8ui2lukdx::::res://Beam-Beta.png
+PC.gd::GDScript::-1::1705297327::0::1::::<>CharacterBody2D<>::
+PC.tscn::PackedScene::4777183030040435702::1705297327::0::1::::<><>::res://Player/PC.gd<>uid://bwfeyt3xj0gs3::::res://Ishtar pixels cozy pack 1.0/tiles/Slice 131.png
