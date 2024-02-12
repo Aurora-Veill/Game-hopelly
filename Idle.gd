@@ -2,6 +2,7 @@ extends State
 var move_direction : Vector2 = Vector2.ZERO
 var wander_time : float
 func Update(delta):
+	print(entity.position)
 	if entity.position.distance_to(entity.target.position) < 500 and !entity.target.isInvis:
 		Transitioned.emit(self, "Aware")
 	elif entity.HP <= 0:

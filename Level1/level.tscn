@@ -1,10 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://c10w8ovlssrkw"]
+[gd_scene load_steps=7 format=3 uid="uid://c10w8ovlssrkw"]
 
 [ext_resource type="Script" path="res://Level1/level.gd" id="1_sckdk"]
 [ext_resource type="TileSet" uid="uid://b75df18d4x4sc" path="res://Level1/level.tres" id="2_ernfn"]
 [ext_resource type="PackedScene" uid="uid://21pw7ci1gwiu" path="res://class__cleric.tscn" id="3_bo8dg"]
 [ext_resource type="PackedScene" uid="uid://cacdrhtopoeta" path="res://Player/PC.tscn" id="3_q0oqh"]
-[ext_resource type="PackedScene" uid="uid://bgsshgb7oljcj" path="res://Enemies/Diff1/enemy_1.tscn" id="4_k06sn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b0mfv"]
 size = Vector2(2200, 32)
@@ -14,6 +13,11 @@ size = Vector2(16, 1200)
 
 [node name="Level" type="Node2D"]
 script = ExtResource("1_sckdk")
+enemies = 1
+enemyPos = {
+0: Vector2(800, 100),
+1: Vector2(200, 300)
+}
 
 [node name="TileMap2" type="TileMap" parent="."]
 scale = Vector2(1.1181, 1.0127)
@@ -64,7 +68,3 @@ position = Vector2(200, 200)
 
 [node name="Class_ Cleric" parent="." instance=ExtResource("3_bo8dg")]
 position = Vector2(100, 300)
-
-[node name="Enemy1" parent="." node_paths=PackedStringArray("target") instance=ExtResource("4_k06sn")]
-position = Vector2(646, 182)
-target = NodePath("../Player")

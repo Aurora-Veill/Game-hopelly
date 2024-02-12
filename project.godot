@@ -12,13 +12,14 @@ config_version=5
 
 config/name="Game hopelly"
 run/main_scene="res://Level1/level.tscn"
-config/features=PackedStringArray("4.1", "C#", "Mobile")
+config/features=PackedStringArray("4.1", "C#")
 config/icon="res://icon.svg"
 
 [autoload]
 
 Data="*res://data.gd"
 StateMachine="*res://State.gd"
+LevelData="*res://levelData.gd"
 
 [display]
 

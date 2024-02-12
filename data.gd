@@ -1,6 +1,5 @@
 extends Node
 class_name Player_Data
-#var part1S = {"", "", "", "", "", "", "", "", "", ""}
 var HP = 100
 var mana = 100
 var atk0

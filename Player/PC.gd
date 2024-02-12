@@ -20,6 +20,7 @@ var isInvis = false
 @onready var spd = 150
 @onready var isDashing = false
 @onready var HP = 100
+@onready var charNav = $charNav
 func _ready():
 	Cam.set_limit(SIDE_LEFT, 0)
 	Cam.set_limit(SIDE_TOP, 0)
