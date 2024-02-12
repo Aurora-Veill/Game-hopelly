@@ -1,23 +1,27 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705361584
+::res://::1707179490
 Beam-Beta.png::CompressedTexture2D::1958122294992251221::1700545886::1700545887::1::::<><>::
 CharUI.gd::GDScript::-1::1702347282::0::1::::<>Node2D<>::
-char_ui.tscn::PackedScene::5234921253590960987::1705297327::0::1::::<><>::res://CharUI.gd<>uid://clb27sodn2qpx::::res://HP BAR (trust me bro).png<>uid://bvi7nemjfyxrk::::res://MANA BAR (trust me bro).png
-Class.gd::GDScript::-1::1705295704::0::1::::<>Node2D<>::
-class__cleric.tscn::PackedScene::1949724326425136332::1705297327::0::1::::<><>::res://Class.gd<>uid://ct537j3qwei3a::::res://Cleric_Beta.png<>uid://25r8ui2lukdx::::res://Beam-Beta.png
+char_ui.tscn::PackedScene::5234921253590960987::1707179376::0::1::::<><>::res://CharUI.gd<>uid://clb27sodn2qpx::::res://HP BAR (trust me bro).png<>uid://bvi7nemjfyxrk::::res://MANA BAR (trust me bro).png
+Class.gd::GDScript::-1::1707175909::0::1::::<>Node2D<>::
+class__cleric.tscn::PackedScene::1949724326425136332::1707179376::0::1::::<><>::res://Class.gd<>uid://ct537j3qwei3a::::res://Cleric_Beta.png<>uid://25r8ui2lukdx::::res://Beam-Beta.png
 Cleric_Beta.png::CompressedTexture2D::6170118467054236888::1701745887::1701746871::1::::<><>::
 data.gd::GDScript::-1::1704760273::0::1::::Player_Data<>Node<>::
 HP BAR (trust me bro).png::CompressedTexture2D::5548680496570592605::1702341569::1702341573::1::::<><>::
 icon.svg::CompressedTexture2D::721172498338072479::1699726664::1699726684::1::::<><>::
+Idle.gd::GDScript::-1::1707178441::0::1::::<>State<>::
+level_3.tscn::PackedScene::4392348224027990427::1707179377::0::1::::<><>::res://Level1/level.gd<>uid://b75df18d4x4sc::::res://Level1/level.tres<>uid://cacdrhtopoeta::::res://Player/PC.tscn<>uid://bgsshgb7oljcj::::res://Enemies/Diff1/enemy_1.tscn
 MANA BAR (trust me bro).png::CompressedTexture2D::3878867810261174360::1702341717::1702347280::1::::<><>::
-manager.tscn::PackedScene::7289560576934947139::1705297327::0::1::::<><>::res://data.gd<>uid://nchg1j62xwfu::::res://Level2/Level2.tscn<>uid://c10w8ovlssrkw::::res://Level1/level.tscn
-projectile.gd::GDScript::-1::1705291748::0::1::::Projectile<>Node2D<>::
+manager.tscn::PackedScene::7289560576934947139::1707179376::0::1::::<><>::res://data.gd<>uid://nchg1j62xwfu::::res://Level2/Level2.tscn<>uid://c10w8ovlssrkw::::res://Level1/level.tscn
+projectile.gd::GDScript::-1::1707177007::0::1::::Projectile<>Node2D<>::
+State.gd::GDScript::-1::1706573433::0::1::::State<>Node<>::
 ::res://2D Pixel Dungeon Asset Pack v2.0/::1700264222
-::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/::1705296139
+::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/::1705365443
 Dungeon_Character_at.png::CompressedTexture2D::7564259182915376876::1700264223::1700264248::1::::<><>::
 Dungeon_Tileset_at.png::CompressedTexture2D::3357654798025751976::1700286948::1700284590::1::::<><>::
 Dungeon_Tile_at.png::CompressedTexture2D::7997039562804159530::1700267269::1700267269::1::::<><>::
 Vampire.png::CompressedTexture2D::1144093188659609233::1700526612::1700526612::1::::<><>::
+Vampire_Attack.png::CompressedTexture2D::8261706299157961060::1705365442::1705365443::1::::<><>::
 Vampire_death.png::CompressedTexture2D::6611792647489381295::1705293595::1705293596::1::::<><>::
 Vampire_hurt.png::CompressedTexture2D::4603258637170672762::1705296135::1705296139::1::::<><>::
 ::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/character and tileset/::1700264248
@@ -243,9 +247,12 @@ torch_2.png::CompressedTexture2D::6112746509156568084::1700264223::1700264248::1
 torch_3.png::CompressedTexture2D::661930488920035088::1700264223::1700264248::1::::<><>::
 torch_4.png::CompressedTexture2D::1827849758338570459::1700264223::1700264248::1::::<><>::
 ::res://Enemies/::1700526161
-::res://Enemies/Diff1/::1705297327
-EnemyMelee.gd::GDScript::-1::1705296539::0::1::::<>CharacterBody2D<>::
-enemy_1.tscn::PackedScene::2845818269679492329::1705297327::0::1::::<><>::res://Enemies/Diff1/EnemyMelee.gd<>uid://b6t3851lhn5va::::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Vampire_hurt.png
+::res://Enemies/Diff1/::1707179377
+Aware.gd::GDScript::-1::1707175953::0::1::::<>State<>::
+Dead.gd::GDScript::-1::1707176064::0::1::::<>State<>::
+EnemyMelee.gd::GDScript::-1::1707175909::0::1::::EnemyMelee<>CharacterBody2D<>::
+enemy_1.tscn::PackedScene::2845818269679492329::1707179376::0::1::::<><>::res://Enemies/Diff1/EnemyMelee.gd<>uid://b6t3851lhn5va::::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Vampire_hurt.png<>res://Enemies/Diff1/StateMachine.gd<>res://Idle.gd<>res://Enemies/Diff1/Aware.gd<>res://Enemies/Diff1/Dead.gd
+StateMachine.gd::GDScript::-1::1707175953::0::1::::<>Node<>::
 ::res://Enemies/Diff2/::1700526144
 ::res://Enemies/Diff3/::1700526150
 ::res://Enemies/Diff4/::1700526156
@@ -387,16 +394,17 @@ Slice 129.png::CompressedTexture2D::8020271655308256542::1700103345::1700103346:
 Slice 130.png::CompressedTexture2D::220556979139487396::1700103345::1700103346::1::::<><>::
 Slice 131.png::CompressedTexture2D::3941183901781104080::1700103345::1700103346::1::::<><>::
 Slice 132.png::CompressedTexture2D::2810468473196250729::1700103345::1700103346::1::::<><>::
-::res://Level1/::1705297327
-level.gd::GDScript::-1::1704938072::0::1::::<>Node2D<>::
-level.tscn::PackedScene::6650756219158628222::1705297327::0::1::::<><>::res://Level1/level.gd<>uid://bn3qc4cec8hoi::::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png<>uid://21pw7ci1gwiu::::res://class__cleric.tscn<>uid://cacdrhtopoeta::::res://Player/PC.tscn<>uid://bgsshgb7oljcj::::res://Enemies/Diff1/enemy_1.tscn
+::res://Level1/::1707179376
+level.gd::GDScript::-1::1705968440::0::1::::<>Node2D<>::
+level.tres::TileSet::4694587509441402114::1707179376::0::1::::<><>::uid://bn3qc4cec8hoi::::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png
+level.tscn::PackedScene::6650756219158628222::1707179376::0::1::::<><>::res://Level1/level.gd<>uid://b75df18d4x4sc::::res://Level1/level.tres<>uid://21pw7ci1gwiu::::res://class__cleric.tscn<>uid://cacdrhtopoeta::::res://Player/PC.tscn<>uid://bgsshgb7oljcj::::res://Enemies/Diff1/enemy_1.tscn
 ::res://Level1/map/::1700288447
 ExitArea.cs::CSharpScript::-1::1700288418::0::1::::<><>::
 Map1.cs::CSharpScript::-1::1700198140::0::1::::<><>::
 tile_map.tscn::PackedScene::7478337757814556620::1700288447::0::1::::<><>::uid://c7drtlpm5vbia
-::res://Level2/::1705297327
-Level2.tscn::PackedScene::917020837471187486::1705297327::0::1::::<><>::res://Level1/level.gd<>uid://cacdrhtopoeta::::res://Player/PC.tscn<>uid://bn3qc4cec8hoi::::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png
-::res://Player/::1705297327
-beam.tscn::PackedScene::816181136628649628::1705297327::0::1::::<><>::res://projectile.gd<>uid://25r8ui2lukdx::::res://Beam-Beta.png
-PC.gd::GDScript::-1::1705297327::0::1::::<>CharacterBody2D<>::
-PC.tscn::PackedScene::4777183030040435702::1705297327::0::1::::<><>::res://Player/PC.gd<>uid://bwfeyt3xj0gs3::::res://Ishtar pixels cozy pack 1.0/tiles/Slice 131.png
+::res://Level2/::1707179376
+Level2.tscn::PackedScene::917020837471187486::1707179376::0::1::::<><>::res://Level1/level.gd<>uid://cacdrhtopoeta::::res://Player/PC.tscn<>uid://bn3qc4cec8hoi::::res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png
+::res://Player/::1707179376
+beam.tscn::PackedScene::816181136628649628::1707179376::0::1::::<><>::res://projectile.gd<>uid://25r8ui2lukdx::::res://Beam-Beta.png
+PC.gd::GDScript::-1::1705363004::0::1::::<>CharacterBody2D<>::
+PC.tscn::PackedScene::4777183030040435702::1707179376::0::1::::<><>::res://Player/PC.gd<>uid://bwfeyt3xj0gs3::::res://Ishtar pixels cozy pack 1.0/tiles/Slice 131.png

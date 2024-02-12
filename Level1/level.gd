@@ -2,8 +2,9 @@ extends Node2D
 
 var data = preload("res://data.gd")
 @export var enemies = 1
+@export var enemy_diff = 1
 @export var cooldown = false
-@export var endScene = "res://Level2/Level2.tscn"
+@export var endScene = "res://level_3.tscn"
 @export var reward = preload("res://class__cleric.tscn")
 @onready var player = $Player 
 # Called when the node enters the scene tree for the first time.
@@ -14,8 +15,8 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
 	pass
-func spawn_reward(Reward: PackedScene):
-	var sR = Reward.instantiate()
+func spawn_reward():
+	var sR = reward.instantiate()
 	sR.position = Vector2(500, 150)
 	add_child(sR)
 func change_scene():
@@ -24,4 +25,4 @@ func change_scene():
 func enemy_death():
 	enemies -= 1
 	if enemies == 0:
-		spawn_reward(reward)
+		call_deferred("spawn_reward")

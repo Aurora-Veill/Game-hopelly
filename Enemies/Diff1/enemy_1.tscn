@@ -1,16 +1,17 @@
-[gd_scene load_steps=9 format=3 uid="uid://bgsshgb7oljcj"]
+[gd_scene load_steps=12 format=3 uid="uid://bgsshgb7oljcj"]
 
 [ext_resource type="Script" path="res://Enemies/Diff1/EnemyMelee.gd" id="1_fec67"]
 [ext_resource type="Texture2D" uid="uid://b6t3851lhn5va" path="res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Vampire_hurt.png" id="2_nxelr"]
+[ext_resource type="Script" path="res://Enemies/Diff1/StateMachine.gd" id="3_iv56i"]
+[ext_resource type="Script" path="res://Idle.gd" id="4_gpwfb"]
+[ext_resource type="Script" path="res://Enemies/Diff1/Aware.gd" id="5_siqo7"]
+[ext_resource type="Script" path="res://Enemies/Diff1/Dead.gd" id="6_0mdc0"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_vqo00"]
-size = Vector2(28, 34)
+[sub_resource type="CircleShape2D" id="CircleShape2D_0ycyb"]
+radius = 4.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bx6hb"]
 size = Vector2(26, 32)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_3g52d"]
-size = Vector2(28, 34)
 
 [sub_resource type="Animation" id="Animation_5f6ny"]
 resource_name = "Death_ani"
@@ -67,19 +68,16 @@ _data = {
 "RESET": SubResource("Animation_7js6f")
 }
 
-[node name="Enemy1" type="CharacterBody2D" node_paths=PackedStringArray("nav")]
+[node name="Enemy1" type="CharacterBody2D"]
 script = ExtResource("1_fec67")
-nav = NodePath("NavigationAgent2D")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_0ycyb")
 
 [node name="AnimFrames" type="Sprite2D" parent="."]
 texture = ExtResource("2_nxelr")
 hframes = 5
 vframes = 2
-
-[node name="Hitbox" type="Area2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
-shape = SubResource("RectangleShape2D_vqo00")
 
 [node name="Hurtbox" type="Area2D" parent="."]
 collision_layer = 2
@@ -88,18 +86,30 @@ collision_mask = 2
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
 shape = SubResource("RectangleShape2D_bx6hb")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_3g52d")
-
-[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
-
 [node name="Invuln_Timer" type="Timer" parent="."]
 one_shot = true
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+path_postprocessing = 1
+debug_enabled = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
 "": SubResource("AnimationLibrary_0l3g3")
 }
+
+[node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("initialState")]
+script = ExtResource("3_iv56i")
+initialState = NodePath("Idle")
+
+[node name="Idle" type="Node" parent="StateMachine"]
+script = ExtResource("4_gpwfb")
+
+[node name="Aware" type="Node" parent="StateMachine"]
+script = ExtResource("5_siqo7")
+
+[node name="Dead" type="Node" parent="StateMachine"]
+script = ExtResource("6_0mdc0")
 
 [connection signal="area_entered" from="Hurtbox" to="." method="_on_hurtbox_area_entered"]
 [connection signal="timeout" from="Invuln_Timer" to="." method="_on_invuln_timer_timeout"]
