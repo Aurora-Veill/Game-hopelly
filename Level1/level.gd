@@ -38,7 +38,6 @@ func spawnEnemies():
 		makeEnemy(load(get_node("/root/LevelData").getRanEnem(enemy_diff)))
 func makeEnemy(enemy : PackedScene):
 	var enem = enemy.instantiate()
-	print(enem)
 	player.position = Vector2(880, 220)
 	enem.position = enemyPos[(randi() % enemyPos.size())]
 	add_child(enem)
