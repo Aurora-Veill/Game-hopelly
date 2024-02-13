@@ -18,7 +18,10 @@ func actor_setup():
 	await get_tree().physics_frame
 	navReady = true
 func _physics_process(delta):
-	pass
+	if target == null:
+		for child in self.get_parent().get_children():
+			if child.has_method("Player"):
+				target = child
 #	if !target.isInvis and position.distance_to(target.position) > 50 and position.distance_to(target.position) < 500:
 #		makepath()
 #		var vel: Vector2 = to_local(nav.get_next_path_position()).normalized()
