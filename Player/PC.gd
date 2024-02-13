@@ -28,8 +28,6 @@ func _ready():
 	Cam.set_limit(SIDE_BOTTOM, 1200)
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
-	if Input.is_action_pressed("kms"):
-		HP -= 50
 	if HP <= 0:
 		death()
 	var movement = Vector2.ZERO

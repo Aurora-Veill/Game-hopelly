@@ -7,8 +7,8 @@
 [ext_resource type="Script" path="res://Enemies/Diff1/Aware.gd" id="5_siqo7"]
 [ext_resource type="Script" path="res://Enemies/Diff1/Dead.gd" id="6_0mdc0"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_0ycyb"]
-radius = 4.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2atbw"]
+size = Vector2(26, 32)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bx6hb"]
 size = Vector2(26, 32)
@@ -72,7 +72,7 @@ _data = {
 script = ExtResource("1_fec67")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_0ycyb")
+shape = SubResource("RectangleShape2D_2atbw")
 
 [node name="AnimFrames" type="Sprite2D" parent="."]
 texture = ExtResource("2_nxelr")
@@ -91,7 +91,6 @@ one_shot = true
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
 path_postprocessing = 1
-debug_enabled = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
