@@ -1,7 +1,9 @@
 extends CharacterBody2D
 class_name EnemyMelee
 var navReady = false
-var HP;
+@export var HP = 2
+@export var dmg = 10
+@export var spd = 4000
 @onready var invuln = $Invuln_Timer
 @onready var sprite = $AnimFrames
 @onready var anim = $AnimationPlayer
@@ -11,12 +13,12 @@ var vulnerable = true
 var state = State.new()
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	HP = 2
 	call_deferred("actor_setup")
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func actor_setup():
 	await get_tree().physics_frame
 	navReady = true
+	sprite.show()
 func _physics_process(delta):
 	if target == null:
 		for child in self.get_parent().get_children():
@@ -45,3 +47,5 @@ func take_dmg(area):
 func _on_invuln_timer_timeout():
 	sprite.set_frame(0)
 	vulnerable = true
+func enemy():
+	pass

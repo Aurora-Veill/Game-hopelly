@@ -98,6 +98,11 @@ func save_data():
 	mana -= 19
 	get_node("/root/Data").save_data(self)
 func death():
+	get_node("/root/Data").clear_data()
 	get_tree().change_scene_to_file("res://Level1/level.tscn")
 func Player():
 	pass
+
+func _on_pc_hurtbox_area_entered(area):
+	if area.get_parent().has_method("enemy"):
+		HP -= area.get_parent().dmg # Replace with function body.

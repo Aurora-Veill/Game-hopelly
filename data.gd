@@ -6,6 +6,13 @@ var atk0
 var atk1
 var className = "none"
 var coords = Vector2(200, 200)
+func clear_data():
+	HP = 100
+	mana = 100
+	atk0 = null
+	atk1 = null
+	className = "none"
+	coords = Vector2(200, 200)
 func save_data(player: Node2D):
 	HP = player.HP
 #	print(HP)

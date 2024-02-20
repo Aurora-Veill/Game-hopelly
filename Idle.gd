@@ -14,7 +14,7 @@ func Update(delta):
 	else:
 		update_wander(delta)
 func PhysicsUpdate(delta):
-	entity.velocity = move_direction * delta * 4000
+	entity.velocity = move_direction * delta * entity.spd
 	entity.move_and_slide()
 func update_wander(delta):
 	if wander_time > 0:
