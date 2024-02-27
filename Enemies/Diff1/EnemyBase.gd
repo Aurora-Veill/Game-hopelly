@@ -1,6 +1,7 @@
 extends CharacterBody2D
-class_name EnemyMelee
+class_name EnemyBase
 var navReady = false
+
 @export var HP = 2
 @export var dmg = 10
 @export var spd = 4000
@@ -9,6 +10,7 @@ var navReady = false
 @onready var anim = $AnimationPlayer
 var vulnerable = true
 @export var target: Node2D
+@export var projectile = preload("res://Enemies/Diff1/arrow.tscn")
 @onready var nav = $NavigationAgent2D
 var state = State.new()
 # Called when the node enters the scene tree for the first time.
@@ -31,19 +33,21 @@ func _physics_process(delta):
 #	else:
 #		velocity = Vector2.ZERO
 #	move_and_slide()
-func _on_hurtbox_area_entered(area):
-	if vulnerable:
-		take_dmg(area)
+func ranged_attack(projectile: PackedScene):
+	var atk = projectile.instantiate()
+	atk.position = position
+	atk.look_at(target.get_global_position())
+	add_child(atk)
 func set_movement_target(target_pos: Vector2):
 	nav.target_position = target_pos
-func take_dmg(area):
-	HP -= 1
-	var Player = area.find_parent("Player")
-	if Player != null:
-		Player.mana += 5
-	sprite.set_frame(4)
-	invuln.start(0.1)
-	vulnerable = false
+func take_dmg(area, dmg):
+	if vulnerable:
+		HP -= dmg
+		if area.find_parent("Player") != null:
+			area.find_parent("Player").mana += 5
+		sprite.set_frame(4)
+		invuln.start(0.1)
+		vulnerable = false
 func _on_invuln_timer_timeout():
 	sprite.set_frame(0)
 	vulnerable = true

@@ -1,11 +1,11 @@
 extends State
 func Update(delta):
-	if entity.target.isInvis or entity.position.distance_to(entity.target.position) > 500:
+	if entity.target.isInvis or entity.position.distance_to(entity.target.position) > 1000:
 		Transitioned.emit(self, "Idle")
 		return
 	elif entity.HP <= 0:
 		Transitioned.emit(self, "Dead")
-	elif entity.position.distance_to(entity.target.position) < 50:
+	elif entity.position.distance_to(entity.target.position) < get_parent().range:
 		Transitioned.emit(self, "Attack")
 func PhysicsUpdate(delta):
 	entity.nav.target_position = entity.target.global_position

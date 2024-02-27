@@ -1,6 +1,6 @@
 extends Node
-
-@export var initialState : State
+@export var range = 50
+@export var initialState : State 
 var currentState : State
 var states : Dictionary = {}
 var entity : CharacterBody2D
@@ -16,10 +16,11 @@ func _ready():
 		currentState = initialState
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	
-	currentState.Update(delta)
+	if currentState != null:
+		currentState.Update(delta)
 func _physics_process(delta):
-	currentState.PhysicsUpdate(delta)
+	if currentState != null:
+		currentState.PhysicsUpdate(delta)
 func on_child_transition(state, newStateName):
 	var newState = states.get(newStateName.to_lower())
 	state.Exit()

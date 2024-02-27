@@ -15,3 +15,6 @@ func Enter():
 
 func Exit():
 	pass
+
+func RangedAtk():
+	pass
