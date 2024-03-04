@@ -1,6 +1,7 @@
 extends State
 
 @onready var timer = $Timer
+var off_cd = true
 func Update(delta):
 	if entity.HP <= 0:
 		Transitioned.emit(self, "Dead")
@@ -12,16 +13,18 @@ func PhysicsUpdate(delta):
 	var space = entity.get_world_2d().direct_space_state
 	var query = PhysicsRayQueryParameters2D.create(entity.position, entity.target.position)
 	var result = space.intersect_ray(query)
-	print("a")
-	if timer.is_stopped():
+	if off_cd:
 		print("e")
 		RangedAtk()
 	else:
-		print("i")
 		Transitioned.emit(self, "Aware")
 func Enter():
 	entity = get_parent().entity
 func RangedAtk():
-	print("hi")
 	timer.start(2)
+	off_cd = false
 	entity.anim.play("ranged_attack")
+
+
+func _on_timer_timeout():
+	off_cd = true

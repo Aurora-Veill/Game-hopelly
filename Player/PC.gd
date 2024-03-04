@@ -65,6 +65,7 @@ func attack(projectile: PackedScene) -> void:
 	var atk = projectile.instantiate()
 	atk.position = position
 	atk.look_at(get_global_mouse_position())
+	atk.set_dir(get_global_mouse_position())
 	add_child(atk)
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("Atk0") && atk0 != null:

@@ -306,3 +306,4 @@ shape = SubResource("RectangleShape2D_xnwh8")
 
 [connection signal="area_entered" from="Hurtbox" to="." method="_on_hurtbox_area_entered" flags=18]
 [connection signal="timeout" from="Invuln_Timer" to="." method="_on_invuln_timer_timeout" flags=18]
+[connection signal="timeout" from="StateMachine/Attack/Timer" to="StateMachine/Attack" method="_on_timer_timeout"]

@@ -37,6 +37,7 @@ func ranged_attack(projectile: PackedScene):
 	var atk = projectile.instantiate()
 	atk.position = position
 	atk.look_at(target.get_global_position())
+	atk.set_dir(target.get_global_position())
 	add_child(atk)
 func set_movement_target(target_pos: Vector2):
 	nav.target_position = target_pos
