@@ -11,7 +11,6 @@ var spawnlocs = []
 @onready var spawns = $Spawns.get_children()
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	player.load_data()
 	get_node("/root/LevelData").randomizeSeed()
 	if !cooldown:
 		spawnEnemies()

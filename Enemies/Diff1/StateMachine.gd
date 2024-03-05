@@ -1,5 +1,5 @@
 extends Node
-@export var range = 50
+@export var atkRange = 50
 @export var initialState : State 
 var currentState : State
 var states : Dictionary = {}

@@ -4,6 +4,7 @@ var atk0
 var atk1
 
 var className = "none"
+var classLevel = 0
 var dashCD = 0
 var atk0CD = 0
 var atk1CD = 0
@@ -16,7 +17,9 @@ var isInvis = false
 @onready var atkPos = $atkPos
 @onready var Cam = $PlayerCam
 @onready var hpbar = $HPbar
+@onready var manabar = $Manabar
 @onready var mana = 100
+@onready var dmg = 1
 @onready var atk1Cost = 25
 @onready var spd = 150
 @onready var isDashing = false
@@ -27,6 +30,7 @@ func _ready():
 	Cam.set_limit(SIDE_TOP, 0)
 	Cam.set_limit(SIDE_RIGHT, 2200)
 	Cam.set_limit(SIDE_BOTTOM, 1200)
+	load_data()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
 	if HP <= 0:
@@ -82,8 +86,6 @@ func load_data():
 #	print(atk1)
 #	print(className)
 func save_data():
-	HP -= 10
-	mana -= 19
 	get_node("/root/Data").save_data(self)
 func death():
 	get_node("/root/Data").clear_data()
@@ -110,3 +112,4 @@ func _on_pc_hurtbox_area_entered(area):
 		HP -= area.get_parent().dmg # Replace with function body.
 func setBar():
 	hpbar.scale.x = HP*0.3
+	manabar.scale.x = mana*0.3

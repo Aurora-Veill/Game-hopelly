@@ -17,9 +17,16 @@ func _process(_delta):
 	else:
 		get_node("Explainer").hide()
 	if Input.is_action_pressed("Collect") and isIn:
-		player.className = className
-		player.atk0 = atk0
-		player.atk1 = atk1
+		if player.className == "none":
+			player.className = className
+			player.atk0 = atk0
+			player.atk1 = atk1 
+			player.classLevel += 1
+		else:
+			player.dmg += 1
+			if player.classLevel == 2:
+				pass 
+			player.classLevel += 1
 		var level = get_parent()
 		level.change_scene()
 		queue_free()

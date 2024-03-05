@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://cacdrhtopoeta"]
+[gd_scene load_steps=6 format=3 uid="uid://cacdrhtopoeta"]
 
 [ext_resource type="Script" path="res://Player/PC.gd" id="1_a6wbq"]
 [ext_resource type="Texture2D" uid="uid://bwfeyt3xj0gs3" path="res://Ishtar pixels cozy pack 1.0/tiles/Slice 131.png" id="2_uptjb"]
 [ext_resource type="Texture2D" uid="uid://clb27sodn2qpx" path="res://HP BAR (trust me bro).png" id="3_5hr8i"]
+[ext_resource type="Texture2D" uid="uid://bvi7nemjfyxrk" path="res://MANA BAR (trust me bro).png" id="4_8xn2b"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v8fku"]
 size = Vector2(21, 30)
@@ -40,10 +41,16 @@ path_desired_distance = 0.1
 
 [node name="HPbar" type="Node2D" parent="."]
 position = Vector2(-15, -20)
-scale = Vector2(30, 7.772)
+scale = Vector2(30, 5)
 
 [node name="HPbarsprite" type="Sprite2D" parent="HPbar"]
 position = Vector2(0.5, 0)
 texture = ExtResource("3_5hr8i")
 
-[connection signal="area_entered" from="PCHurtbox" to="." method="_on_pc_hurtbox_area_entered"]
+[node name="Manabar" type="Node2D" parent="."]
+position = Vector2(-15, -26)
+scale = Vector2(30, 5)
+
+[node name="Sprite2D" type="Sprite2D" parent="Manabar"]
+position = Vector2(0.5, 0)
+texture = ExtResource("4_8xn2b")

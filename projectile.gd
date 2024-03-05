@@ -5,8 +5,8 @@ extends Node2D
 @export var lifetime = 1
 var direction = Vector2.ZERO
 @export var speed = 5
-@export var dmg = 1
 @export var pierce = 1
+@onready var dmg = get_parent().dmg
 func _ready():
 	set_as_top_level(true)
 	var timer = $Timer

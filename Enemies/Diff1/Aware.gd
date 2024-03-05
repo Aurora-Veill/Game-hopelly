@@ -5,7 +5,7 @@ func Update(delta):
 		return
 	elif entity.HP <= 0:
 		Transitioned.emit(self, "Dead")
-	elif entity.position.distance_to(entity.target.position) < get_parent().range:
+	elif entity.position.distance_to(entity.target.position) < get_parent().atkRange:
 		Transitioned.emit(self, "Attack")
 func PhysicsUpdate(delta):
 	entity.nav.target_position = entity.target.global_position

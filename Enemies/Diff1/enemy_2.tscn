@@ -272,7 +272,6 @@ libraries = {
 
 [node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("initialState")]
 script = ExtResource("3_bjivb")
-range = 500
 initialState = NodePath("Idle")
 
 [node name="Idle" type="Node" parent="StateMachine"]
