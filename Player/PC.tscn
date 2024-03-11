@@ -6,10 +6,10 @@
 [ext_resource type="Texture2D" uid="uid://bvi7nemjfyxrk" path="res://MANA BAR (trust me bro).png" id="4_8xn2b"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v8fku"]
-size = Vector2(22, 31)
+size = Vector2(22, 30)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i5qt4"]
-size = Vector2(23, 32)
+size = Vector2(24, 32)
 
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 9
@@ -20,15 +20,15 @@ script = ExtResource("1_a6wbq")
 texture = ExtResource("2_uptjb")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-0.5, 1)
+position = Vector2(0, 1)
 shape = SubResource("RectangleShape2D_v8fku")
 
 [node name="PCHurtbox" type="Area2D" parent="."]
-collision_layer = 128
-collision_mask = 128
+collision_layer = 8
+collision_mask = 8
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="PCHurtbox"]
-position = Vector2(-0.5, 1)
+position = Vector2(0, 1)
 shape = SubResource("RectangleShape2D_i5qt4")
 
 [node name="atkPos" type="Marker2D" parent="."]
