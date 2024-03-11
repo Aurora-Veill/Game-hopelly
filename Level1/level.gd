@@ -11,8 +11,10 @@ var spawnlocs = []
 @onready var spawns = $Spawns.get_children()
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	get_node("/root/LevelData").incrementRuns()
 	get_node("/root/LevelData").randomizeSeed()
 	if !cooldown:
+		enemies = get_node("/root/LevelData").runs + 2
 		spawnEnemies()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
@@ -36,10 +38,12 @@ func spawnEnemies():
 	for i in range(enemies):
 		makeEnemy(load(get_node("/root/LevelData").getRanEnem(enemy_diff)))
 func makeEnemy(enemy : PackedScene):
+	if spawns.size() < 1:
+		return
 	var enem = enemy.instantiate()
 	enem.position = spawns[(randi() % spawns.size())].position
-	print(enem.position)
-	checkloc(enem)
+	if (enemies <= spawns.size()):
+		checkloc(enem)
 	spawnlocs.push_back(enem.position);
 	add_child(enem)
 func checkloc(enem):

@@ -88,6 +88,7 @@ func load_data():
 func save_data():
 	get_node("/root/Data").save_data(self)
 func death():
+	get_node("/root/LevelData").runs = 0
 	get_node("/root/Data").clear_data()
 	get_tree().change_scene_to_file("res://Level1/level.tscn")
 func Player():
