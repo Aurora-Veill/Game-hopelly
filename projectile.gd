@@ -19,8 +19,6 @@ func _on_timer_timeout():
 	queue_free() # Replace with function body.
 
 func _on_impact_detector_area_entered(area):
-	if area.get_parent().has_method("take_dmg"):
-		area.get_parent().take_dmg(self, dmg)
 	pierce -= 1
 	if pierce <= 0:
 		queue_free()
