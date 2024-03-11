@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://cacdrhtopoeta"]
+[gd_scene load_steps=7 format=3 uid="uid://cacdrhtopoeta"]
 
 [ext_resource type="Script" path="res://Player/PC.gd" id="1_a6wbq"]
 [ext_resource type="Texture2D" uid="uid://bwfeyt3xj0gs3" path="res://Ishtar pixels cozy pack 1.0/tiles/Slice 131.png" id="2_uptjb"]
@@ -6,7 +6,10 @@
 [ext_resource type="Texture2D" uid="uid://bvi7nemjfyxrk" path="res://MANA BAR (trust me bro).png" id="4_8xn2b"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v8fku"]
-size = Vector2(21, 30)
+size = Vector2(22, 31)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i5qt4"]
+size = Vector2(23, 32)
 
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 9
@@ -26,7 +29,7 @@ collision_mask = 128
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="PCHurtbox"]
 position = Vector2(-0.5, 1)
-shape = SubResource("RectangleShape2D_v8fku")
+shape = SubResource("RectangleShape2D_i5qt4")
 
 [node name="atkPos" type="Marker2D" parent="."]
 

@@ -19,10 +19,14 @@ func _on_timer_timeout():
 	queue_free() # Replace with function body.
 
 func _on_impact_detector_area_entered(area):
+	if area.get_parent().has_method("enemy") or area.get_parent().has_method("Player"):
+		area.get_parent().HP -= dmg
+	print(dmg)
 	pierce -= 1
 	if pierce <= 0:
 		queue_free()
 func _on_impact_detector_body_entered(body):
+	print("aefurihq")
 	queue_free() #Replace with function body.
 func set_dir(Direction):
 	direction = Direction.normalized()
