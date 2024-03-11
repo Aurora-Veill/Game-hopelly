@@ -18,6 +18,5 @@ func _process(_delta):
 	if pManaCheck != Player.Mana:
 		var ManaScale = Vector2(1, 1)
 		ManaScale.x = float(Player.Mana) / float(pMana)
-		print(ManaScale.x)
 		get_node("MANA").apply_scale(ManaScale)
 		pManaCheck = Player.Mana

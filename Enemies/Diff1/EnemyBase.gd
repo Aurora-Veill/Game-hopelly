@@ -54,3 +54,8 @@ func _on_invuln_timer_timeout():
 	vulnerable = true
 func enemy():
 	pass
+
+
+func _on_area_2d_body_entered(body):
+	if body.has_method("Player"):
+		body.HP -= dmg

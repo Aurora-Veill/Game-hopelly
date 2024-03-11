@@ -238,7 +238,7 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xnwh8"]
-size = Vector2(32, 38)
+size = Vector2(50, 50)
 
 [node name="Enemy1" type="CharacterBody2D"]
 script = ExtResource("1_e4h0s")
@@ -295,8 +295,8 @@ hframes = 4
 vframes = 2
 
 [node name="Area2D" type="Area2D" parent="."]
-collision_layer = 128
-collision_mask = 128
+collision_layer = 8
+collision_mask = 8
 monitoring = false
 monitorable = false
 
@@ -305,3 +305,4 @@ shape = SubResource("RectangleShape2D_xnwh8")
 
 [connection signal="area_entered" from="Hurtbox" to="." method="_on_hurtbox_area_entered"]
 [connection signal="timeout" from="Invuln_Timer" to="." method="_on_invuln_timer_timeout"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

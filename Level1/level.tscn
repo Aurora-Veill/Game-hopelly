@@ -66,12 +66,3 @@ position = Vector2(200, 200)
 position = Vector2(100, 300)
 
 [node name="Spawns" type="Node" parent="."]
-
-[node name="Node2D" type="Node2D" parent="Spawns"]
-position = Vector2(966, 239)
-
-[node name="Node2D2" type="Node2D" parent="Spawns"]
-position = Vector2(403, 125)
-
-[node name="Node2D3" type="Node2D" parent="Spawns"]
-position = Vector2(381, 513)
