@@ -5,7 +5,7 @@ func Update(delta):
 		Transitioned.emit(self, "Dead")
 	if entity.anim.is_playing():
 		return
-	if entity.position.distance_to(entity.target.position) > get_parent().range:
+	if entity.position.distance_to(entity.target.position) > get_parent().atkRange:
 		Transitioned.emit(self, "Aware")
 func PhysicsUpdate(delta):
 	entity.anim.play("attack")

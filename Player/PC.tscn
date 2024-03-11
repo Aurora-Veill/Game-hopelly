@@ -54,3 +54,5 @@ scale = Vector2(30, 5)
 [node name="Sprite2D" type="Sprite2D" parent="Manabar"]
 position = Vector2(0.5, 0)
 texture = ExtResource("4_8xn2b")
+
+[connection signal="area_entered" from="PCHurtbox" to="." method="_on_pc_hurtbox_area_entered"]

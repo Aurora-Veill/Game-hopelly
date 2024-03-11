@@ -14,7 +14,6 @@ func PhysicsUpdate(delta):
 	var query = PhysicsRayQueryParameters2D.create(entity.position, entity.target.position)
 	var result = space.intersect_ray(query)
 	if off_cd:
-		print("e")
 		RangedAtk()
 	else:
 		Transitioned.emit(self, "Aware")
