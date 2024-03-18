@@ -1,9 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://b3txllswj804f"]
+[gd_scene load_steps=4 format=3 uid="uid://b3txllswj804f"]
 
 [ext_resource type="Script" path="res://Level1/level.gd" id="1_c5g4w"]
 [ext_resource type="TileSet" uid="uid://b75df18d4x4sc" path="res://Level1/level.tres" id="1_ol0ct"]
 [ext_resource type="PackedScene" uid="uid://cacdrhtopoeta" path="res://Player/PC.tscn" id="2_qy80l"]
-[ext_resource type="PackedScene" uid="uid://21pw7ci1gwiu" path="res://class__cleric.tscn" id="4_p0lbm"]
 
 [node name="Level2" type="Node2D"]
 script = ExtResource("1_c5g4w")
@@ -51,6 +50,3 @@ position = Vector2(1835, 116)
 
 [node name="Node2D11" type="Node2D" parent="Spawns"]
 position = Vector2(1418, 222)
-
-[node name="Class_ Cleric" parent="." instance=ExtResource("4_p0lbm")]
-position = Vector2(100, 100)

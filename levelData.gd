@@ -14,3 +14,6 @@ func randomizeSeed():
 func getRanEnem(diff):
 	var temp = randi() % enemiesList[diff].size()
 	return enemiesList[diff][temp]
+func getRanLevel():
+	var temp = randi() % enemiesList.size()
+	return enemiesList[temp]

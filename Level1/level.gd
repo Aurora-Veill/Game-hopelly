@@ -11,10 +11,9 @@ var spawnlocs = []
 @onready var spawns = $Spawns.get_children()
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	get_node("/root/LevelData").incrementRuns()
 	get_node("/root/LevelData").randomizeSeed()
 	if !cooldown:
-		enemies = get_node("/root/LevelData").runs + 2
+		enemies = get_node("/root/LevelData").runs + 1
 		spawnEnemies()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
@@ -29,6 +28,7 @@ func spawn_reward():
 		spawn_reward()
 func change_scene():
 	player.save_data()
+	get_node("/root/LevelData").incrementRuns()
 	get_tree().change_scene_to_file(endScene)
 func enemy_death():
 	enemies -= 1
