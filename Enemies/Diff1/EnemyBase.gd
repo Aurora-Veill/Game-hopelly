@@ -4,7 +4,7 @@ var navReady = false
 
 @export var HP = 2
 @export var dmg = 10
-@export var spd = 4000
+@export var spd = 8000
 @onready var invuln = $Invuln_Timer
 @onready var sprite = $AnimFrames
 @onready var anim = $AnimationPlayer

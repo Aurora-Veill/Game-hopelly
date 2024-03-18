@@ -14,7 +14,7 @@ func _ready():
 	get_node("/root/LevelData").incrementRuns()
 	get_node("/root/LevelData").randomizeSeed()
 	if !cooldown:
-		enemies = get_node("/root/LevelData").runs + 2
+		enemies = get_node("/root/LevelData").runs * 2
 		spawnEnemies()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
