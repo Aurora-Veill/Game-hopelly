@@ -79,7 +79,6 @@ func load_data():
 	atk0 = get_node("/root/Data").load_atk0()
 	atk1 = get_node("/root/Data").load_atk1()
 	className = get_node("/root/Data").load_className()
-	position = get_node("/root/Data").load_pos()
 #	print(HP)
 #	print(mana)
 #	print(atk0)
@@ -105,7 +104,7 @@ func move(delta):
 		movement.y -= 1
 	movement = movement.normalized()
 	if isDashing:
-		movement *= 4
+		movement *= 8
 	velocity = movement * delta * spd * 60
 	move_and_slide()
 func _on_pc_hurtbox_area_entered(area):

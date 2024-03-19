@@ -242,8 +242,8 @@ size = Vector2(50, 50)
 
 [node name="Enemy1" type="CharacterBody2D"]
 script = ExtResource("1_e4h0s")
-HP = 4
 dmg = 15
+spd = 12000
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_2atbw")

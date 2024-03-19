@@ -2,17 +2,18 @@ extends Node2D
 
 var data = preload("res://data.gd")
 var spawnlocs = []
-@export var enemies = 0
+@export var enemies = 21
 @export var enemy_diff = 1
-@export var cooldown = false
+@export var scripted = false
 @export var endScene = "res://level_3.tscn"
 @export var reward = preload("res://class__cleric.tscn")
 @onready var player = $Player 
-@onready var spawns = $Spawns.get_children()
+var spawns
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	get_node("/root/LevelData").randomizeSeed()
-	if !cooldown:
+	if !scripted:
+		spawns = $Spawns.get_children()
 		enemies = get_node("/root/LevelData").runs + 1
 		spawnEnemies()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -29,7 +30,7 @@ func spawn_reward():
 func change_scene():
 	player.save_data()
 	get_node("/root/LevelData").incrementRuns()
-	get_tree().change_scene_to_file(endScene)
+	get_tree().change_scene_to_file(get_node("/root/LevelData").getRanLevel())
 func enemy_death():
 	enemies -= 1
 	if enemies == 0:

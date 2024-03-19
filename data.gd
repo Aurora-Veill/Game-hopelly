@@ -6,7 +6,6 @@ var atk0
 var atk1
 var className = "none"
 var classLevel = 0
-var coords = Vector2(200, 200)
 func clear_data():
 	HP = 100
 	mana = 100
@@ -14,7 +13,6 @@ func clear_data():
 	atk1 = null
 	className = "none"
 	classLevel = 0
-	coords = Vector2(200, 200)
 func save_data(player: Node2D):
 	HP = player.HP
 #	print(HP)
@@ -27,7 +25,6 @@ func save_data(player: Node2D):
 #	print(atk1)
 	className = player.className
 #	print(className)
-	coords = player.position
 func load_HP():
 	return HP
 func load_mana():
@@ -40,5 +37,3 @@ func load_className():
 	return className
 func load_classLevel():
 	return classLevel
-func load_pos():
-	return coords
