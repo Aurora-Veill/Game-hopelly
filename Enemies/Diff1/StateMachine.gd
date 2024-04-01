@@ -1,6 +1,6 @@
 extends Node
 @export var atkRange = 50
-@export var initialState : State 
+@export var initialState : State
 var currentState : State
 var states : Dictionary = {}
 var entity : CharacterBody2D

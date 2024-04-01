@@ -276,7 +276,7 @@ libraries = {
 [node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("initialState")]
 script = ExtResource("4_afbyk")
 atkRange = 30
-initialState = NodePath("")
+initialState = NodePath("Idle")
 
 [node name="Idle" type="Node" parent="StateMachine"]
 script = ExtResource("5_viiw1")
