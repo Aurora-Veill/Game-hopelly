@@ -8,6 +8,7 @@
 
 [node name="level_4" type="Node2D"]
 script = ExtResource("1_krgh8")
+enemies = 10
 scripted = true
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -45,35 +46,5 @@ position = Vector2(148, 196)
 [node name="Enemy13" parent="." instance=ExtResource("3_ppgqt")]
 position = Vector2(204, 196)
 
-[node name="Enemy14" parent="." instance=ExtResource("2_x3yfj")]
-position = Vector2(33, 230)
-
-[node name="Enemy15" parent="." instance=ExtResource("2_x3yfj")]
-position = Vector2(67, 230)
-
-[node name="Enemy16" parent="." instance=ExtResource("2_x3yfj")]
-position = Vector2(101, 230)
-
-[node name="Enemy17" parent="." instance=ExtResource("2_x3yfj")]
-position = Vector2(135, 230)
-
-[node name="Enemy18" parent="." instance=ExtResource("2_x3yfj")]
-position = Vector2(169, 230)
-
-[node name="Enemy19" parent="." instance=ExtResource("2_x3yfj")]
-position = Vector2(203, 230)
-
-[node name="Enemy20" parent="." instance=ExtResource("3_ppgqt")]
-position = Vector2(35, 269)
-
-[node name="Enemy22" parent="." instance=ExtResource("3_ppgqt")]
-position = Vector2(92, 269)
-
-[node name="Enemy24" parent="." instance=ExtResource("3_ppgqt")]
-position = Vector2(148, 269)
-
-[node name="Enemy26" parent="." instance=ExtResource("3_ppgqt")]
-position = Vector2(204, 269)
-
 [node name="Player" parent="." instance=ExtResource("4_hsymd")]
-position = Vector2(80, 44)
+position = Vector2(433, 65)
